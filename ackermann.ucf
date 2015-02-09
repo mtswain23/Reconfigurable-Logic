@@ -1,0 +1,70 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "anode_seg[3]" IOSTANDARD = LVCMOS33;
+NET "anode_seg[2]" IOSTANDARD = LVCMOS33;
+NET "anode_seg[1]" IOSTANDARD = LVCMOS33;
+NET "anode_seg[0]" IOSTANDARD = LVCMOS33;
+NET "m[2]" IOSTANDARD = LVCMOS33;
+NET "m[1]" IOSTANDARD = LVCMOS33;
+NET "m[0]" IOSTANDARD = LVCMOS33;
+NET "n[3]" IOSTANDARD = LVCMOS33;
+NET "n[2]" IOSTANDARD = LVCMOS33;
+NET "n[1]" IOSTANDARD = LVCMOS33;
+NET "n[0]" IOSTANDARD = LVCMOS33;
+NET "seven_seg[6]" IOSTANDARD = LVCMOS33;
+NET "seven_seg[5]" IOSTANDARD = LVCMOS33;
+NET "seven_seg[4]" IOSTANDARD = LVCMOS33;
+NET "seven_seg[3]" IOSTANDARD = LVCMOS33;
+NET "seven_seg[2]" IOSTANDARD = LVCMOS33;
+NET "seven_seg[1]" IOSTANDARD = LVCMOS33;
+NET "seven_seg[0]" IOSTANDARD = LVCMOS33;
+
+NET "led_out[7]" IOSTANDARD = LVCMOS33;
+NET "led_out[6]" IOSTANDARD = LVCMOS33;
+NET "led_out[5]" IOSTANDARD = LVCMOS33;
+NET "led_out[4]" IOSTANDARD = LVCMOS33;
+NET "led_out[3]" IOSTANDARD = LVCMOS33;
+NET "led_out[2]" IOSTANDARD = LVCMOS33;
+NET "led_out[1]" IOSTANDARD = LVCMOS33;
+NET "led_out[0]" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "anode_seg[3]" LOC = P17;
+NET "anode_seg[2]" LOC = P18;
+NET "anode_seg[1]" LOC = N15;
+NET "anode_seg[0]" LOC = N16;
+NET "m[0]" LOC = T10;
+NET "m[1]" LOC = T9;
+NET "m[2]" LOC = V9;
+NET "n[3]" LOC = T5;
+NET "n[2]" LOC = V8;
+NET "n[1]" LOC = U8;
+NET "n[0]" LOC = N8;
+NET "seven_seg[6]" LOC = L14;
+NET "seven_seg[5]" LOC = N14;
+NET "seven_seg[4]" LOC = M14;
+NET "seven_seg[3]" LOC = U18;
+NET "seven_seg[2]" LOC = U17;
+NET "seven_seg[1]" LOC = T18;
+NET "seven_seg[0]" LOC = T17;
+
+NET "led_out[7]" LOC = T11;
+NET "led_out[6]" LOC = R11;
+NET "led_out[5]" LOC = N11;
+NET "led_out[4]" LOC = M11;
+NET "led_out[3]" LOC = V15;
+NET "led_out[2]" LOC = U15;
+NET "led_out[1]" LOC = V16;
+NET "led_out[0]" LOC = U16;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = V10;
+NET "reset" LOC = M8;
