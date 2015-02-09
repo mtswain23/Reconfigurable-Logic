@@ -4,7 +4,7 @@
 
 module clkdivider (clk,
                    slow_clk
-				   );
+				  );
 
   input  wire clk;
   output wire slow_clk;
@@ -71,7 +71,7 @@ always@(posedge slow_clk) begin //{
  
  if (reset) begin//{
    out            =  16'h0000   ;
-	 pc             =  6'd0       ;
+   pc             =  6'd0       ;
    done           =  1'b0       ;
    stack[0]       =  m          ; 
    stack[1]       =  n          ; 
