@@ -4,7 +4,7 @@
 
 module clkdivider (clk,
                    slow_clk
-				  );
+				   );
 
   input  wire clk;
   output wire slow_clk;
@@ -27,8 +27,8 @@ module ackermann (clk,
 				  m,
 				  n,
 				  anode_seg,
-                  seven_seg,
-                  led_out
+				  seven_seg,
+				  led_out
 				  );
 
 parameter MSIZE = 3                    ;
@@ -84,11 +84,11 @@ always@(posedge slow_clk) begin //{
       //if pc > 0 decrement the pc else assign the output
       if(~|pc)   begin out = stack[pc]; done = 1'b1; end
       else       begin pc  = pc-1'b1  ;              end
-	  end //}
+	end //}
 
     else if (|m_temp && ~|n_temp) begin //{ m_temp > 0 and n_temp is 0
       stack[pc]      = m_temp-1'b1  ;
-	    stack[pc_1]	   = 16'h0001     ;
+	  stack[pc_1]	   = 16'h0001   ;
     end //}	      
  
     else begin //{ m_temp > 1 and n_temp > 1 condition 
